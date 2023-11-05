@@ -1,0 +1,33 @@
+{
+  "semi": true,
+  "bracketSpacing": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": true,
+  "printWidth": 120,
+  "endOfLine": "auto",
+  "tabWidth": 2,
+
+  "overrides": [
+    {
+      "files": "*.scss",
+      "options": {
+        "printWidth": 85,
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "printWidth": 85,
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 125,
+        "tabWidth": 2
+      }
+    }
+  ]
+}
